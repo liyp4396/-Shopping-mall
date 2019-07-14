@@ -1,0 +1,290 @@
+@charset 'utf-8';
+//引入hotcss的px2rem函数文件
+@import '../lib/hotcss-master/src/px2rem.scss';
+//定义设计图的宽度
+$designWidth:750;
+$page-padding:px2rem(26);
+
+//  购物车头部 
+.top-hd{
+    // width: px2rem(750);
+    height: px2rem(128);
+    border: 1px solid #e5e5e5;
+    background: linear-gradient(to right, #910758, #f51b5a);
+    position: relative;
+    h3{
+        color: #fff;
+        font-size: px2rem(34);
+        position: absolute;
+        top: px2rem(68);
+        left: px2rem(322);
+    }
+    a{
+        color: #fff;
+        font-size: px2rem(32);
+        position: absolute;
+        top: px2rem(70);
+        right: px2rem(26);
+    }
+}
+.goods-list-round{
+    position: relative;
+    margin-bottom: px2rem(190);
+}
+// 公共图标
+.icon-selected{
+display: block;
+width: px2rem(40);
+height: px2rem(40);
+border-radius: 50%;
+background-color: #f51b5a;
+color: #fff;
+line-height: px2rem(40);
+font-size: px2rem(30);
+text-align: center;
+}
+// banner  轮播图区域
+.swiper-container{
+    .swiper-wrapper{
+      .swiper-slide{
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  // 秒杀时钟 
+  .spike{
+      height: px2rem(86);
+      line-height: px2rem(86);
+      text-align: center;
+      background: linear-gradient(to right,rgba(232, 94, 5, .7), rgba(232, 44, 25, .5));
+    .timer-wrap{
+        span{
+            margin-left: px2rem(8);
+        }
+        .timer-num{
+            width: px2rem(50);
+            height: px2rem(60);
+            line-height: px2rem(60);
+            background-color: #ec1a5a;
+            display: inline-block;
+            font-weight: normal;
+            color: #fff;
+            text-align: center;
+            border-radius: px2rem(9);
+        }
+      }
+  }
+//  物品列表 
+.goods-list{
+    .goods-list-item{
+        color: #333333;
+        .goods-item-hd{
+            height: px2rem(69);
+            border-bottom: 1px solid #e5e5e5;
+            background-color: #fff;
+
+            // 用弹性盒子实现
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: $page-padding;
+            .goods-shopname{
+                font-size: px2rem(28);
+                // line-height: px2rem(69);
+                padding-left: px2rem(14);
+            }
+        }
+        .goods-item-bd{
+            height: px2rem(214);
+            border-bottom: 1px solid #e5e5e5;
+            background-color: #fff;
+            padding-left: $page-padding;
+
+            // 用弹性盒子实现
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .goods-item-bd-l{
+                padding-left: px2rem(14);
+                a{
+                    img{
+                        width: px2rem(194);
+                        height: px2rem(194);
+                    }
+                }
+            }
+            .goods-item-bd-r{
+                height: px2rem(183);
+                width: px2rem(410);
+                color: #333333;
+                margin-left: px2rem(15);
+                line-height: px2rem(27);
+                .goods-item-name{
+                    font-size: px2rem(22);
+                }
+                .goods-item-sku{
+                    font-size: px2rem(22);
+                    .sku-nane{
+                        color: #d6d6d6;
+                    }
+                    .sku-value{
+                        color: #ec1a5a;
+                        margin-left: px2rem(17);
+                    }
+                }
+                .goods-item-sjicon{
+                    width: px2rem(66);
+                    height: px2rem(18);
+                    background: url(../img/mobiphone.png) no-repeat;
+                    background-size: cover;
+                    margin-top: px2rem(9);
+                }
+                .goods-item-price{
+                    color: #ec1a5a;
+                    font-size: px2rem(28);
+                    margin-top: px2rem(9);
+                    
+                }
+                .goods-item-edit-wrap{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    height: px2rem(40);
+                    margin-top: px2rem(6);
+                    .edit-count-wrap{
+                        border: 1px solid #ccc;
+                        border-radius: px2rem(4);
+                        overflow: hidden;
+                        a{
+                            float: left;
+                            height: px2rem(40);
+                            font-size: px2rem(28);
+                            color: #666666;
+                            line-height: px2rem(40);
+                            border-left: px2rem(0.5) solid #ccc;
+                            padding: 0 px2rem(12);
+                            border-right: px2rem(0.5) solid #ccc;
+                        }
+                        input{
+                            float: left;
+                            height: px2rem(40);
+                            width: px2rem(52);
+                            font-size: px2rem(28);
+                            color: #666666;
+                            line-height: px2rem(40);
+                            // border-left: 1px solid #ccc;
+                            padding: 0 px2rem(12);
+                            border: none;
+                            text-align: center;
+                        }
+                    }
+                    .edit-btn{
+                        font-size: px2rem(35);
+                    }
+                }
+            }
+        }
+        .goods-item-sep{
+            background-color: #eeeeee;
+            height: px2rem(20);
+        }
+    }
+}
+.goods-account-wrap{
+    height: px2rem(86);
+    width: 100%;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    position: fixed;
+    bottom: px2rem(97);
+    left: 0;
+    padding-left: $page-padding;
+    z-index: 1000;
+    overflow: hidden;
+    .account-l{
+        float: left;
+        color: #858585;
+        font-size: px2rem(30);
+        line-height: px2rem(87);
+        // height: px2rem(86);
+        // width: px2rem(144);
+        a{
+            display: block;
+            i{
+                display: inline-block;
+                height: px2rem(40);
+                width: px2rem(40);
+                margin-right: px2rem(16);
+            }
+        }
+    }
+    .account-r{
+        .account-r-num{
+            float: left;
+            width: px2rem(238);
+            height: px2rem(86);
+            line-height: px2rem(86);
+            // height: px2rem(30);
+            font-size: px2rem(26);
+            color: #858585;
+            margin-left: px2rem(150);
+            .price-num{
+                color: #ec1a5a;
+                font-size: px2rem(30);
+                // line-height: px2rem(86);
+            }
+        }
+    }
+    .account-settle{
+        float: right;
+        height: px2rem(86);
+        width: px2rem(222);
+        background: linear-gradient(to right, #920757, #f61b5a);
+        color: #fff;
+        line-height: px2rem(86);
+        font-size: px2rem(30);
+        text-align: center;
+        
+    }
+}
+// 底部导航栏
+.root{
+    width: 100%;
+    height: px2rem(98);
+    background-color: #171717;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    .root-list{
+        height: px2rem(98);
+        list-style: none;
+        color: #898989;
+        font-size: px2rem(20);
+        padding-left: $page-padding;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .list-item{
+            height: px2rem(70);
+            width: px2rem(50);
+            line-height: px2rem(35);
+            text-align: center;
+            i{
+                display: block;
+                font-size: px2rem(50);
+                // margin-top: px2rem(13);
+            }
+            span{
+                display: block;
+                margin-top: px2rem(11);
+            }
+        }
+        .gouwuche{
+            color: #ec1a5a;
+        }
+    }
+}

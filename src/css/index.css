@@ -1,0 +1,289 @@
+.top-hd {
+  height: 2.73067rem;
+  border: 1px solid #e5e5e5;
+  background: linear-gradient(to right, #910758, #f51b5a);
+  position: relative;
+}
+
+.top-hd h3 {
+  color: #fff;
+  font-size: 0.72533rem;
+  position: absolute;
+  top: 1.45067rem;
+  left: 6.86933rem;
+}
+
+.top-hd a {
+  color: #fff;
+  font-size: 0.68267rem;
+  position: absolute;
+  top: 1.49333rem;
+  right: 0.55467rem;
+}
+
+.goods-list-round {
+  position: relative;
+  margin-bottom: 4.05333rem;
+}
+
+.icon-selected {
+  display: block;
+  width: 0.85333rem;
+  height: 0.85333rem;
+  border-radius: 50%;
+  background-color: #f51b5a;
+  color: #fff;
+  line-height: 0.85333rem;
+  font-size: 0.64rem;
+  text-align: center;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.spike {
+  height: 1.83467rem;
+  line-height: 1.83467rem;
+  text-align: center;
+  background: linear-gradient(to right, rgba(232, 94, 5, 0.7), rgba(232, 44, 25, 0.5));
+}
+
+.spike .timer-wrap span {
+  margin-left: 0.17067rem;
+}
+
+.spike .timer-wrap .timer-num {
+  width: 1.06667rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  background-color: #ec1a5a;
+  display: inline-block;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.192rem;
+}
+
+.goods-list .goods-list-item {
+  color: #333333;
+}
+
+.goods-list .goods-list-item .goods-item-hd {
+  height: 1.472rem;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0.55467rem;
+}
+
+.goods-list .goods-list-item .goods-item-hd .goods-shopname {
+  font-size: 0.59733rem;
+  padding-left: 0.29867rem;
+}
+
+.goods-list .goods-list-item .goods-item-bd {
+  height: 4.56533rem;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+  padding-left: 0.55467rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-l {
+  padding-left: 0.29867rem;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-l a img {
+  width: 4.13867rem;
+  height: 4.13867rem;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r {
+  height: 3.904rem;
+  width: 8.74667rem;
+  color: #333333;
+  margin-left: 0.32rem;
+  line-height: 0.576rem;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-name {
+  font-size: 0.46933rem;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-sku {
+  font-size: 0.46933rem;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-sku .sku-nane {
+  color: #d6d6d6;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-sku .sku-value {
+  color: #ec1a5a;
+  margin-left: 0.36267rem;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-sjicon {
+  width: 1.408rem;
+  height: 0.384rem;
+  background: url(../img/mobiphone.png) no-repeat;
+  background-size: cover;
+  margin-top: 0.192rem;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-price {
+  color: #ec1a5a;
+  font-size: 0.59733rem;
+  margin-top: 0.192rem;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-edit-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 0.85333rem;
+  margin-top: 0.128rem;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-edit-wrap .edit-count-wrap {
+  border: 1px solid #ccc;
+  border-radius: 0.08533rem;
+  overflow: hidden;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-edit-wrap .edit-count-wrap a {
+  float: left;
+  height: 0.85333rem;
+  font-size: 0.59733rem;
+  color: #666666;
+  line-height: 0.85333rem;
+  border-left: 0.01067rem solid #ccc;
+  padding: 0 0.256rem;
+  border-right: 0.01067rem solid #ccc;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-edit-wrap .edit-count-wrap input {
+  float: left;
+  height: 0.85333rem;
+  width: 1.10933rem;
+  font-size: 0.59733rem;
+  color: #666666;
+  line-height: 0.85333rem;
+  padding: 0 0.256rem;
+  border: none;
+  text-align: center;
+}
+
+.goods-list .goods-list-item .goods-item-bd .goods-item-bd-r .goods-item-edit-wrap .edit-btn {
+  font-size: 0.74667rem;
+}
+
+.goods-list .goods-list-item .goods-item-sep {
+  background-color: #eeeeee;
+  height: 0.42667rem;
+}
+
+.goods-account-wrap {
+  height: 1.83467rem;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+  position: fixed;
+  bottom: 2.06933rem;
+  left: 0;
+  padding-left: 0.55467rem;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.goods-account-wrap .account-l {
+  float: left;
+  color: #858585;
+  font-size: 0.64rem;
+  line-height: 1.856rem;
+}
+
+.goods-account-wrap .account-l a {
+  display: block;
+}
+
+.goods-account-wrap .account-l a i {
+  display: inline-block;
+  height: 0.85333rem;
+  width: 0.85333rem;
+  margin-right: 0.34133rem;
+}
+
+.goods-account-wrap .account-r .account-r-num {
+  float: left;
+  width: 5.07733rem;
+  height: 1.83467rem;
+  line-height: 1.83467rem;
+  font-size: 0.55467rem;
+  color: #858585;
+  margin-left: 3.2rem;
+}
+
+.goods-account-wrap .account-r .account-r-num .price-num {
+  color: #ec1a5a;
+  font-size: 0.64rem;
+}
+
+.goods-account-wrap .account-settle {
+  float: right;
+  height: 1.83467rem;
+  width: 4.736rem;
+  background: linear-gradient(to right, #920757, #f61b5a);
+  color: #fff;
+  line-height: 1.83467rem;
+  font-size: 0.64rem;
+  text-align: center;
+}
+
+.root {
+  width: 100%;
+  height: 2.09067rem;
+  background-color: #171717;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.root .root-list {
+  height: 2.09067rem;
+  list-style: none;
+  color: #898989;
+  font-size: 0.42667rem;
+  padding-left: 0.55467rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.root .root-list .list-item {
+  height: 1.49333rem;
+  width: 1.06667rem;
+  line-height: 0.74667rem;
+  text-align: center;
+}
+
+.root .root-list .list-item i {
+  display: block;
+  font-size: 1.06667rem;
+}
+
+.root .root-list .list-item span {
+  display: block;
+  margin-top: 0.23467rem;
+}
+
+.root .root-list .gouwuche {
+  color: #ec1a5a;
+}
